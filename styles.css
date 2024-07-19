@@ -1,20 +1,52 @@
 html{
-    background-color: rgb(77, 68, 68);
-    font: 1em sans-serif;
+    background-color: rgb(35, 35, 35);
     color: white;
-    h1{
-        color:rgba(55, 222, 255, 0.945)
+
+    #Roboto{
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
     }
+
+    p, li{
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        text-align: justify;
+    }
+
+    h2{
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+    .Name{
+        color: #10BCD4
+    }
+
     h2{
         color: white
     }
     h3{
-        color:aqua
+        color:#10BCD4
     }
     footer{
-        color: rgb(203, 255, 61)
+        color: #FF304F
     }
     a{
-        color:rgb(203, 255, 61)
+        color:#DD2C00
     }
+    #special_head{
+        color:white
+    }
+    p[draggable="false"]{
+        color:black;
+        background-color: rgb(185, 254, 115);
+    }
+   
 }
