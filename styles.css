@@ -7,7 +7,6 @@ html{
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
-        text-align: center;
     }
 
     p, li{
@@ -55,6 +54,7 @@ html{
     }
     footer{
         color: #FF304F;
+        text-align: center;
     }
     a{
         color:#DD2C00
