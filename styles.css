@@ -1,70 +1,62 @@
 html{
-    background-color: rgb(35, 35, 35);
-    color: white;
-
-    #Roboto{
+        background-color: rgb(35, 35, 35);
+        color: white;
         font-family: "Roboto Condensed", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
     }
 
-    p, li{
+body{
         font-family: "Roboto Condensed", sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
         text-align: justify;
-    }
+}
 
-    h2,h3{
-        font-family: "Roboto Condensed", sans-serif;
-        font-optical-sizing: auto;
+h2,h3{
         font-weight: 500;
-        font-style: normal;
     }
 
-
-    .Name{
+.Name{
         color: #10BCD4
     }
-    #photochantel{
+
+#photochantel, #bok{
         place-items: center;
         text-align: center;  
     }
 
-    #bok{
-        text-align: center;
-    }
-    #image1{
+#image1{
         border: #10BCD4;
         border-width: 5px;
         border-style: groove;
     }
 
-    #image2{
+#image2{
         width: 100px
     }
 
-    h2{
+h2{
         color: white
     }
-    h3{
+
+h3{
         color:#10BCD4
     }
-    footer{
+
+footer{
         color: #FF304F;
         text-align: center;
     }
-    a{
+
+a{
         color:#DD2C00
     }
-    #special_head{
+
+#special_head{
         color:white
     }
-    p[draggable="false"]{
+    
+p[draggable="false"]{
         color:black;
         background-color: rgb(185, 254, 115);
     }
-   
-}
