@@ -13,11 +13,11 @@ body{
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
-        text-align: justify;
 }
 
 #summary{
     width:50%;
+    text-align: justify;
 }
 
 h2,h3{
@@ -71,7 +71,8 @@ p[draggable="false"]{
 #skills{
     display: flex;
     gap:10px;
-    width:50%
+    width:50%;
+    text-align:left;
 }
 
 #tech{
@@ -84,4 +85,7 @@ p[draggable="false"]{
 }
 #cert{
     clear:both;
+}
+#qual, workexp{
+    text-align: left;
 }
