@@ -2,6 +2,10 @@ html{
         background-color: rgb(35, 35, 35);
         color: white;
         font-family: "Roboto Condensed", sans-serif;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
     }
 
 body{
@@ -12,6 +16,10 @@ body{
         text-align: justify;
 }
 
+#summary{
+    width:50%;
+}
+
 h2,h3{
         font-weight: 500;
     }
@@ -20,9 +28,10 @@ h2,h3{
         color: #10BCD4
     }
 
-#photochantel, #bok{
-        place-items: center;
-        text-align: center;  
+
+
+#bok{
+    margin-left:35%
     }
 
 #image1{
@@ -45,7 +54,6 @@ h3{
 
 footer{
         color: #FF304F;
-        text-align: center;
     }
 
 a{
@@ -60,6 +68,12 @@ p[draggable="false"]{
         color:black;
         background-color: rgb(185, 254, 115);
     }
+#skills{
+    display: flex;
+    gap:10px;
+    width:50%
+}
+
 #tech{
     float:left;
     width:50%;
