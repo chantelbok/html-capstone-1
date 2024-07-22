@@ -60,3 +60,14 @@ p[draggable="false"]{
         color:black;
         background-color: rgb(185, 254, 115);
     }
+#tech{
+    float:left;
+    width:50%;
+}
+#soft{
+    float:right;
+    width:50%
+}
+#cert{
+    clear:both;
+}
